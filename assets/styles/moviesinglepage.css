@@ -1,0 +1,360 @@
+/** @format */
+
+.contain {
+   max-width: 120rem;
+	
+    box-sizing: border-box;
+    width: 100%;
+    margin-inline: auto;
+    padding-inline: 1rem;
+}
+body {
+	background-color: #1c1c1c;
+	color: #e0e0e0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.movie-content {
+	width: 100%;
+}
+
+.movie__search-bar {
+    position: relative;
+    display: block;
+}
+.movie__search-bar .icons {
+    position: absolute;
+    right: 0;
+    margin-right: 0.8rem;
+    background-color: transparent;
+    margin-top: 0.3rem;
+    cursor: pointer;
+}
+.movie__search-bar input {
+    width: 30rem;
+    height: 3.2rem;
+    border-radius: 3rem;
+    border: none;
+    background-color: #D9D9D9;
+    padding: 1rem 1.3rem;
+    font-size: 1.2rem;
+    font-family: inherit;
+    font-weight: 400;
+    cursor: pointer;
+}
+.header__icons{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    display: none;
+}
+.icons{
+    height: 2.8rem;
+    padding: 0.6rem;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    font-weight: 700;
+    color: #000;
+}
+
+.movie__header-content {
+	display: flex;
+	justify-content: space-between;
+	margin-block: 2rem;
+}
+.bookmark__btn {
+	display: flex;
+	align-items: center;
+	background-color: #d9d9d9;
+	color: #1c1c1c;
+	padding: 0.4rem 0.8rem;
+	border-radius: 2rem;
+	cursor: pointer;
+}
+
+.bookmark__btn span {
+	font-size: 1.2rem;
+	font-weight: 400;
+	padding-right: 0.4rem;
+}
+.bookmark__btn .icons {
+	background-color: transparent;
+	fill: none;
+	padding: none;
+	stroke: #1c1c1c;
+	height: 2.4rem;
+}
+.moview__singlepage {
+	width: 80%;
+	margin-inline: auto;
+}
+.movie__section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-block: 2rem;
+    width: 100%;
+}
+.movie__textbox {
+	display: flex;
+	gap: 3rem;
+	overflow: hidden;
+}
+.movie__gener {
+	display: flex;
+	gap: 1.4rem;
+	margin-block: 1rem;
+}
+.movie__gener button {
+	background-color: #d9d9d9;
+	color: #1c1c1c;
+	padding: 0.4rem 1.8rem;
+	border-radius: 2rem;
+	cursor: pointer;
+	border: none;
+	font-size: 1.4rem;
+	font-weight: 400;
+}
+.movie__desc {
+	width: 70%;
+    overflow: hidden;
+}
+.movie__desc p {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5;
+	margin-block: 1rem;
+	color: #9f9f9f;
+}
+.movie__reviewbox {
+	display: flex;
+	gap: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+.movie__reviewbox h4{
+    font-weight: 400;
+    color: #a5a5a5;
+    font-size: 1.2rem;
+}
+.movie__reviewbox p{
+    font-size: 1rem;
+    font-weight: 300;
+    color: #9f9c9c;
+}
+.movie__ratingscore{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+.movie__ratingscore .icons {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    height: 1.2rem;
+    fill: url(#gold-gradient);
+}
+.movie__ratingscore span{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #a5a5a5;
+}
+.movie__ratingscore .score{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #d9d9d9;
+}
+.seasons{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-block: 2rem;
+}
+.season__tabs-title h2{
+    font-weight: 600;
+    font-size: 40px;
+    color: #d9d9d9;
+   
+   
+}
+
+.season__tabs-content{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+.season__tabs-content button{
+    height: 3.2rem;
+    width: 3.2rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    background-color: #D9D9D9;
+}
+.seasons__posters{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    margin-top: 4rem;
+    gap: 2rem;
+}
+.seasons__poster{
+    background-color: #fff;
+    color: #333;
+   
+    border-radius: 1rem;
+}
+.poster select{
+    margin-top: 1rem;
+    margin-right: 0.8rem;
+    width: 12rem;
+    border: none;
+    padding: 1rem 1.2rem;
+    border-radius: 1rem;
+    height: 3rem;
+    font-size: 1rem;
+    color: #333;
+    font-weight: 300;
+}
+.poster1{
+    background-image: url(../images/season1.png);
+    height: 8rem;
+    text-align: right;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 1rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+   
+}
+.movie__preview{
+    width: 100%;
+}
+.poster2{
+    background-image: url(../images/season2.png);
+    height: 8rem;
+    text-align: right;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 1rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+   
+}
+.poster3{
+    background-image: url(../images/season3.png);
+    height: 8rem;
+    text-align: right;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 1rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+   
+}
+.poster4{
+    background-image: url(../images/season4.png);
+    height: 8rem;
+    text-align: right;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 1rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+   
+}
+.poster__title p{
+    padding: 1rem;
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+}
+@media (max-width: 1024px){
+    .contain{
+        max-width: 390px;
+       
+        margin-inline: auto;
+        padding-inline: 1rem;
+       
+    }
+    .moview__poster img{
+        width: 70%;
+    }
+    
+
+
+    .preview__poster img{
+        width: 100%;
+        height: 100%;
+       
+    }
+    .bookmark__btn, .moview__seasons-tabs, .moview__seasons-tabs, .movie__search-bar{
+        display: none;
+    } 
+    .header__icons{
+        display: block;
+        display: flex;
+        align-items: center;
+    }
+    .moview__singlepage{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .movie__section{
+        display: flex;
+        flex-direction: column-reverse;
+           width: 100%;
+        align-items: center;
+        position: relative;
+        
+    }
+    .preview__poster{
+        width: 100%;
+    }
+    .movie__desc {
+        width: 100%;
+        max-width: 400px;
+    }
+    .movie__preview:first-child{
+      
+       width: 100%;
+        
+
+    }
+    .movie__textbox{
+        display: flex;
+        flex-direction: column;
+        
+      
+      
+    }
+    .moview__poster{
+        position: absolute;
+        top: 50;
+    left: 50;
+    
+  
+    
+}
+.preview1{
+    width: 100%;
+    margin-bottom: 10rem;
+}
+.movie__textcontent{
+    width: 100%;
+    margin-top: 4rem;
+}
+.movie__header-content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+}
